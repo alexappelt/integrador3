@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Davur - Restaurant Food Order Bootstrap Admin Dashboard</title>
+    <title>Integrador</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
         ***********************************-->
         <div class="nav-header">
             <a href="index.html" class="brand-logo">
-                <img class="logo-abbr" src="https://i.imgur.com/E8Pi7RK.png" alt="">
+                <img class="logo-abbr" src="https://isd-soft.com/wp-content/uploads/2017/02/DCeCHa_logo.png" alt="">
 				<h1>Integrador</h1>
             </a>
 
@@ -862,20 +862,54 @@
             Content body start
         ***********************************-->
 
-		<tag:maintemplate title="Cadastrar novo produto">
-			<form name="cadProduto" action="/produto" method="post" >
-				<div class="form-group">
-				<tag:inputtext  label="Descricao" name="descricao"  />
-				<tag:inputtext label="Tipo" name="tipo" />
-				<div class="form-group col-sm-12 text-right">
-					<button type="submit" class="btn btn-success">Cadastrar <span class="btn-icon-right"><i class="fa fa-check"></i></span>
-					</button>
-				</div>
-				</div>
-			</form>
-		</tag:maintemplate>
+		<div class="content-body" style="min-height: 1042px;">
+			<!-- row -->
+			<div class="container-fluid">
+
+				<tag:maintemplate title="Cadastrar novo produto">
+					<form name="cadProduto" action="/produto" method="post" >
+						<div class="form-group">
+						<tag:inputtext  label="Descricao" name="descricao"  />
 
 
+							<div class="form-group row">
+								<label class="col-sm-3 text-right" > Valor R$ </label>
+								<input class="col-sm-9 form-control" name="valor_unit" type="number" />
+
+
+
+							</div>
+
+							<tag:inputtext label="Estoque" name="stock" />
+
+							<div class="form-group row">
+								<label class="col-sm-3 text-right">Cozinha</label>
+								<input type="checkbox" name="fl_cozinha">
+							</div>
+
+
+
+
+
+
+
+						<div class="form-group col-sm-12 text-right">
+							<button type="submit" class="btn btn-success">Cadastrar <span class="btn-icon-right"><i class="fa fa-check"></i></span>
+							</button>
+						</div>
+						</div>
+					</form>
+				</tag:maintemplate>
+
+
+			<div class="content-body" style="min-height: 1042px;">
+			<!-- row -->
+		<div class="container-fluid">
+
+
+
+			</div>
+		</div>
 
         <!--**********************************
             Content body end
