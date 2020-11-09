@@ -1,0 +1,36 @@
+HTTrack3.49-2 launched on Fri, 06 Nov 2020 19:15:22 at https://coderthemes.com/hyper/saas/index.html
+(winhttrack https://coderthemes.com/hyper/saas/index.html -O "/Users/alexappelt/websites/Bootstrap admin" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:20:48	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/fontsunicons.eot?34404611 (from https://coderthemes.com/hyper/saas/assets/css/icons.min.css)
+19:20:48	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/fonts/Nunito-Light.eot (from https://coderthemes.com/hyper/saas/assets/css/app.min.css)
+19:20:48	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/fonts/Nunito-Light.eot? (from https://coderthemes.com/hyper/saas/assets/css/app.min.css)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/GET (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/addon/edit/continuelist.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/addon/display/fullscreen.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/mode/markdown/markdown.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/addon/mode/overlay.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/addon/display/placeholder.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/addon/selection/mark-selection.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/mode/gfm/gfm.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/codemirror/mode/xml/xml.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/simplemde.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/css/vendor/font/summernote.eot (from https://coderthemes.com/hyper/saas/assets/css/vendor/summernote-bs4.css)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/css/vendor/font/summernote.eot? (from https://coderthemes.com/hyper/saas/assets/css/vendor/summernote-bs4.css)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/css/vendor/font/summernote.woff2 (from https://coderthemes.com/hyper/saas/assets/css/vendor/summernote-bs4.css)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/css/vendor/font/summernote.woff (from https://coderthemes.com/hyper/saas/assets/css/vendor/summernote-bs4.css)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/assets/css/vendor/font/summernote.ttf (from https://coderthemes.com/hyper/saas/assets/css/vendor/summernote-bs4.css)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/typeahead.js (from https://coderthemes.com/hyper/saas/assets/js/vendor/typeahead.bundle.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/Data needs to have a dataByTopic or data property. See more in http://britecharts.github.io/britecharts/global.html (from https://coderthemes.com/hyper/saas/assets/js/vendor/britecharts.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/xl/worksheets/sheet1.xml (from https://coderthemes.com/hyper/saas/assets/js/vendor/buttons.html5.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/xl/workbook.xml (from https://coderthemes.com/hyper/saas/assets/js/vendor/buttons.html5.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/xl/styles.xml (from https://coderthemes.com/hyper/saas/assets/js/vendor/buttons.html5.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/[Content_Types].xml (from https://coderthemes.com/hyper/saas/assets/js/vendor/buttons.html5.min.js)
+19:21:11	Error: 	"Not Found" (404) at link https://coderthemes.com/hyper/saas/buttons.pdf (from https://coderthemes.com/hyper/saas/assets/js/vendor/buttons.html5.min.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 49 seconds : 342 links scanned, 316 files written (27270682 bytes overall) [11560559 bytes received at 33124 bytes/sec], 18890156 bytes transferred using HTTP compression in 227 files, ratio 16%, 48.8 requests per connection
+(25 errors, 0 warnings, 0 messages)
