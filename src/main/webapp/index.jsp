@@ -41,18 +41,18 @@
         <!--**********************************
             Nav header start
         ***********************************-->
-        <div class="nav-header">
-            <a href="index.html" class="brand-logo">
+		<div class="nav-header">
+			<a href="index.html" class="brand-logo">
 				<img class="logo-abbr" src="https://isd-soft.com/wp-content/uploads/2017/02/DCeCHa_logo.png" alt="">
 				<h1>Integrador</h1>
-            </a>
+			</a>
 
-            <div class="nav-control">
-                <div class="hamburger">
-                    <span class="line"></span><span class="line"></span><span class="line"></span>
-                </div>
-            </div>
-        </div>
+			<div class="nav-control">
+				<div class="hamburger">
+					<span class="line"></span><span class="line"></span><span class="line"></span>
+				</div>
+			</div>
+		</div>
         <!--**********************************
             Nav header end
         ***********************************-->
@@ -699,6 +699,9 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
+
+
+
         <div class="deznav">
             <div class="deznav-scroll">
 				<ul class="metismenu" id="menu">
@@ -709,7 +712,7 @@
                         <ul aria-expanded="false">
 							<li><a href="/">Home</a></li>
 							<li><a href="/produto">Cadastro Produtos</a></li>
-							<li><a href="page-review.html">Review</a></li>
+							<li><a href="/listarprodutos">Lista de Produtos</a></li>
 							<li><a href="page-order.html">Order</a></li>
 							<li><a href="page-order-list.html">Order List</a></li>
 							<li><a href="page-general-customers.html">General Customers</a></li>

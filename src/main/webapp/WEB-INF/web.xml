@@ -15,6 +15,18 @@
     <servlet-class>org.prog2.controller.ListaProdutoController</servlet-class>
   </servlet>
 
+
+  <servlet>
+    <servlet-name>InicioController</servlet-name>
+    <servlet-class>org.prog2.controller.InicioController</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>InicioController</servlet-name>
+    <url-pattern>/inicio</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>ProdutoController</servlet-name>
     <url-pattern>/produto</url-pattern>
@@ -24,5 +36,8 @@
     <servlet-name>ListaProdutoController</servlet-name>
     <url-pattern>/listarprodutos</url-pattern>
   </servlet-mapping>
+
+
+
 
 </web-app>

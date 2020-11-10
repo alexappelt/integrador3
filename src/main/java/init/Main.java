@@ -14,7 +14,7 @@ import static java.lang.String.format;
 public class Main {
 
     public static void main(String[] args) {
-        final Integer WEB_PORT = 9000;
+        final Integer WEB_PORT = 9090;
         final String WEB_DIR = "src/main/webapp";
 
         Tomcat tomcat = new Tomcat();

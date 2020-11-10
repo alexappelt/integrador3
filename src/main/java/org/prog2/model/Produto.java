@@ -1,13 +1,22 @@
 package org.prog2.model;
 
-public class Produto {
+public class Produto{
 
 
     private String descricao;
-    private Double valor;
-    private Boolean cozinha;
-    private Integer qntd_estoque;
+    private String valor;
+    private String cozinha;
+    private String qntdestoque;
+    private String imagem;
 
+
+    public void setImagem(String imagem){
+        this.imagem = imagem;
+    }
+
+    public String getImagem(){
+        return imagem;
+    }
 
 
     public String getDescricao() {
@@ -18,28 +27,28 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public Double getValor() {
+    public String getValor() {
         return valor;
     }
 
-    public void setValor(Double valor) {
+    public void setValor(String valor) {
         this.valor = valor;
     }
 
-    public Boolean getCozinha() {
+    public String getCozinha() {
         return cozinha;
     }
 
-    public void setCozinha(Boolean cozinha) {
+    public void setCozinha(String cozinha) {
         this.cozinha = cozinha;
     }
 
-    public Integer getQntd_estoque() {
-        return qntd_estoque;
+    public String getQntdestoque() {
+        return qntdestoque;
     }
 
-    public void setQntd_estoque(Integer qntd_estoque) {
-        this.qntd_estoque = qntd_estoque;
+    public void setQntdestoque(String qntdestoque) {
+        this.qntdestoque = qntdestoque;
     }
 
 }
