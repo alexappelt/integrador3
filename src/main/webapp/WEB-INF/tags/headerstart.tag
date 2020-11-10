@@ -1,5 +1,5 @@
 <div class="nav-header">
-    <a href="index.html"  class="brand-logo">
+    <a href="/inicio"  class="brand-logo">
         <img class="logo-abbr" src="https://isd-soft.com/wp-content/uploads/2017/02/DCeCHa_logo.png" alt="">
         <div id="titulointegrador">
         <h1 >Integrador</h1>
