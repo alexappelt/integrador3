@@ -18,11 +18,11 @@ public class ListaProdutoController extends HttpServlet {
 
         Produto produto1 = new Produto();
         produto1.setDescricao("Produto 1");
-        produto1.setTipo("Eletronico");
+       // produto1.setTipo("Eletronico");
 
         Produto produto2 = new Produto();
         produto2.setDescricao("Produto 2");
-        produto2.setTipo("Eletronico");
+      //  produto2.setTipo("Eletronico");
 
         produtos.add(produto1);
         produtos.add(produto2);
