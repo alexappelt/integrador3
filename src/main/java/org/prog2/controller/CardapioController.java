@@ -1,5 +1,7 @@
 package org.prog2.controller;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.client.FindIterable;
 import org.prog2.dao.ProdutoDao;
 import org.prog2.model.Cardapio;
@@ -54,6 +56,12 @@ public class CardapioController  extends HttpServlet {
 
 
        System.out.println(req.getParameter("itens") );
+
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        JsonNode actualObj = objectMapper.readTree(req.getParameter("itens"));
+
+        System.out.println(actualObj);
 
         objCardapio.setItens(req.getParameter("itens"));
 

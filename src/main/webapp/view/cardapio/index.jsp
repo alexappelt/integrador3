@@ -22,6 +22,8 @@
         <div class="sk-child sk-bounce3"></div>
     </div>
 </div>
+
+
 <!--*******************
     Preloader end
 ********************-->
@@ -199,10 +201,18 @@
          function getItensCardapio() {
 
             comandaitens = {"itens": []}
+
+
             a = document.querySelectorAll(".itemelement");
             a.forEach(item => {
                 if(item != null){
-                comandaitens.itens.push(item.value);
+                    item1 = {};
+                    item1 = {
+                        codigo: item.dataset.codigoitem,
+                        nome: item.dataset.nomeitem,
+                        preco: item.dataset.valoritem
+};
+                comandaitens.itens.push(item1);
                 i = i + 1;
                 }
 
@@ -260,7 +270,10 @@
             botaoitem = document.querySelectorAll(".cbi");
             botaoitem.forEach(item=>{  item.addEventListener('click' , item=>{
                 elementoitem = document.getElementById(atual);
-                console.log(item.target.classList[4])
+                console.log(item.target.classList[4]);
+                elementoitem.dataset.nomeitem = item.target.parentElement.parentElement.children[1].textContent;
+                elementoitem.dataset.codigoitem = item.target.classList[4];
+                elementoitem.dataset.valoritem = item.target.parentElement.parentElement.children[2].textContent;
                 elementoitem.value = item.target.classList[4] + " - " + item.target.parentElement.parentElement.children[1].textContent + " - " +  item.target.parentElement.parentElement.children[2].textContent;
                 modal = document.getElementById("fechamodal");
                 console.log(item.target.parentElement.parentElement.children[1].textContent)
