@@ -217,7 +217,7 @@
             $.ajax({
                 type: "POST",
                 data: {
-                    itens: JSON.stringify(comandaitens.itens),
+                    itens:  JSON.stringify(comandaitens.itens),
                     descricao: descricao
                 },
                 url: "/cardapio"
