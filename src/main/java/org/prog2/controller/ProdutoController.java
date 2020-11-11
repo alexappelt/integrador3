@@ -53,6 +53,9 @@ public class ProdutoController extends HttpServlet {
 
         produtoService.inserirProduto(objProduto);
 
+
+
+
         resp.sendRedirect("/listarprodutos");
 
     }

@@ -85,7 +85,7 @@
                         <tbody>
                         <c:forEach var="cardapio" items="${cardapios}">
                             <tr>
-                                <td> <strong> <c:out value="${cardapio.descricao}"  /> </strong></td>
+                                <td class="table-dark"> <strong> <c:out value="${cardapio.descricao}"  /> </strong></td>
 
                                 <c:forEach var="itemcardapio" items="${cardapio.itens}">
                                     <tr>
@@ -103,6 +103,8 @@
         </div>
     </div>
 </div>
+
+
 
 <script>
 

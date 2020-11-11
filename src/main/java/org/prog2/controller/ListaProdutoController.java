@@ -31,7 +31,7 @@ public class ListaProdutoController extends HttpServlet {
         });
 
 
-        req.setAttribute("produtos", produtos);
+        req.setAttribute("produtos", produtos );
 
 
         RequestDispatcher view = req.getRequestDispatcher("/view/produto/lista.jsp");

@@ -33,6 +33,7 @@ public class ListarUsuarioController extends HttpServlet {
 
         usuario2.forEach(a -> {
             usuarios.add(a);
+
         });
 
 
