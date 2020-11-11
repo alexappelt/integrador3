@@ -206,7 +206,7 @@
             a = document.querySelectorAll(".itemelement");
             a.forEach(item => {
                 if(item != null){
-                    item1 = {};
+                    item1 = {};  
                     item1 = {
                         codigo: item.dataset.codigoitem,
                         nome: item.dataset.nomeitem,
