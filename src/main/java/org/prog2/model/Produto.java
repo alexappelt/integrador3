@@ -3,12 +3,21 @@ package org.prog2.model;
 public class Produto{
 
 
+
+    private String codigo;
     private String descricao;
     private String valor;
     private String cozinha;
     private String qntdestoque;
     private String imagem;
 
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
 
     public void setImagem(String imagem){
         this.imagem = imagem;

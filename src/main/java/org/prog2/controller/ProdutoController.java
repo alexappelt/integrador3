@@ -30,6 +30,9 @@ public class ProdutoController extends HttpServlet {
 
         Produto objProduto = new Produto();
 
+        ProdutoDao objprod = new ProdutoDao();
+
+        objProduto.setCodigo(Long.toString(objprod.getQntdProduto()));
         objProduto.setDescricao(req.getParameter("descricao"));
         objProduto.setValor(req.getParameter("valor"));
         objProduto.setQntdestoque(req.getParameter("qntdestoque"));

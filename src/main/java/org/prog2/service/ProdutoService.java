@@ -9,9 +9,12 @@ public class ProdutoService {
 
         ProdutoDao produtoDao = new ProdutoDao();
 
-        produtoDao.inserirFilial(objProduto);
+        produtoDao.inserirProduto(objProduto);
+
 
 
 
     }
+
+
 }

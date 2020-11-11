@@ -71,6 +71,7 @@
 						<tag:inputtext  label="Descricao" name="descricao"  />
 
 
+
 							<div class="form-group row">
 								<label class="col-sm-3 text-right" > Valor R$ </label>
 								<input class="col-sm-9 form-control" name="valor" type="number" step="0.01"/>

@@ -7,7 +7,7 @@ import org.prog2.model.Produto;
 public class ProdutoDao {
 
 
-    public void inserirFilial(Produto objProduto){
+    public void inserirProduto(Produto objProduto){
 
     getCollection().insertOne(objProduto);
 
@@ -15,6 +15,10 @@ public class ProdutoDao {
 
     public FindIterable<Produto> getProduto(){
        return  getCollection().find();
+    }
+
+    public long getQntdProduto(){
+        return  getCollection().countDocuments();
     }
 
     private MongoCollection<Produto> getCollection(){

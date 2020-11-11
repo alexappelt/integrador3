@@ -79,7 +79,7 @@
 												<img class="img-fluid"  src= <c:out value="${produto.imagem}"  /> alt="">
 											</div>
 											<div class="new-arrival-content text-center mt-3">
-												<h4><c:out value="${produto.descricao}" /></h4>
+												<h4><c:out value="${produto.codigo}" /> - <c:out value="${produto.descricao}" /></h4>
 												<ul class="star-rating">
 													<li><i class="fa fa-star"></i></li>
 													<li><i class="fa fa-star"></i></li>
