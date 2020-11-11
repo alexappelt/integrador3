@@ -82,7 +82,7 @@
                     <div class="form-group row item">
                         <label class="col-sm-3 text-right" > Produto 1</label>
                         <input class="col-sm-6 form-control itemelement" id="0" name="produto"  />
-                        <button type="button" class="btn btn-primary add-item" id="0" style="display: inline;" data-toggle="modal" data-target=".bd-example-modal-lg">Adicionar</button>
+                        <button type="button" class="btn btn-primary add-item" id="0" style="display: inline;" data-toggle="modal" data-target=".bd-example-modal-lg">+</button>
                     </div>
 
                 </div>
@@ -119,7 +119,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title">Itens</h5>
-                                <button type="button" class="close" data-dismiss="modal"><span>×</span>
+                                <button type="button" class="close" data-dismiss="modal"><span>-</span>
                                 </button>
                             </div>
                             <div class="modal-body">
@@ -138,7 +138,7 @@
                                     <c:forEach var="produto" items="${produtos}">
                                         <tr><td> <c:out value="${produto.codigo}"  /> </td>
                                             <td> <c:out value="${produto.descricao}"  /> </td>
-                                            <td  ><c:out value="${produto.valor}"  /></td>
+                                            <td>R$ <c:out value="${produto.valor}"  /></td>
                                             <td><img class="img-fluid rounded mr-3" width="85" src="<c:out value="${produto.imagem}"  />" alt="DexignZone"></td>
                                             <td><span class="badge light badge-primary"><c:out value="${produto.cozinha}"  /></span></td>
                                             <td> <button  type="button" class="btn btn-rounded btn-success cbi <c:out value="${produto.codigo}"  />">+</button></td>
@@ -149,8 +149,8 @@
                                 </table>
                                 </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-danger light" id="fechamodal" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button"  class="btn btn-danger light" id="fechamodal" data-dismiss="modal">X</button>
+                                <button type="button" hidden class="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
         node.innerHTML = `<div class="form-group row item">
                         <label class="col-sm-3 text-right" > Produto ${produtos.childElementCount+1} </label>
                         <input class="col-sm-6 form-control itemelement" name="produto" />
-                        <button type="button" class="btn btn-primary add-item" style="display: inline;" data-toggle="modal" data-target=".bd-example-modal-lg">Adicionar</button>
+                        <button type="button" class="btn btn-primary add-item" style="display: inline;" data-toggle="modal" data-target=".bd-example-modal-lg">+</button>
                     </div>` ;
 
 
@@ -261,7 +261,7 @@
             botaoitem.forEach(item=>{  item.addEventListener('click' , item=>{
                 elementoitem = document.getElementById(atual);
                 console.log(item.target.classList[4])
-                elementoitem.value = item.target.classList[4] + " - " + item.target.parentElement.parentElement.children[1].textContent + " - R$" +  item.target.parentElement.parentElement.children[2].textContent;
+                elementoitem.value = item.target.classList[4] + " - " + item.target.parentElement.parentElement.children[1].textContent + " - " +  item.target.parentElement.parentElement.children[2].textContent;
                 modal = document.getElementById("fechamodal");
                 console.log(item.target.parentElement.parentElement.children[1].textContent)
                 modal.click();

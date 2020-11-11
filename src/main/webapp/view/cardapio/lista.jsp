@@ -74,7 +74,7 @@
             </div>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table table-responsive-md">
+                    <table class="table">
                         <thead>
                         <tr>
                             <th><strong>Descricao</strong></th>
@@ -88,9 +88,9 @@
                                 <td class="table-dark"> <strong> <c:out value="${cardapio.descricao}"  /> </strong></td>
 
                                 <c:forEach var="itemcardapio" items="${cardapio.itens}">
-                                    <tr>
+                                    <tr class="table-info">
 
-                                <td><c:out value="${itemcardapio}"  />  <br> </td>
+                                <td><strong><c:out value="${itemcardapio}"  /> </strong> <br> </td>
                                     </tr>
                                 </c:forEach>
                             </tr>
