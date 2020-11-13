@@ -9,10 +9,8 @@ import java.io.IOException;
 
 public class InicioController extends HttpServlet {
 
-
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher view = req.getRequestDispatcher("/view/inicio/index.jsp");
         view.forward(req, resp);
     }
-
 }

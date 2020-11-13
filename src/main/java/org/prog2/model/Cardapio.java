@@ -2,8 +2,8 @@ package org.prog2.model;
 
 public class Cardapio{
 
-
     String descricao;
+    String itens;
 
     public String getDescricao() {
         return descricao;
@@ -20,13 +20,4 @@ public class Cardapio{
     public void setItens(String itens) {
         this.itens = itens;
     }
-
-    String itens;
-
-
-
-
-
-
-
 }

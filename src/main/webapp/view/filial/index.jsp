@@ -1,7 +1,7 @@
 <%@ taglib tagdir="/WEB-INF/tags/" prefix="tag"%>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 
 <!-- Mirrored from davur.dexignzone.com/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Nov 2020 14:40:08 GMT -->
@@ -85,7 +85,7 @@
 
 
                         <div class="form-group row">
-                            <label class="col-sm-3 text-right" > Localizacao </label>
+                            <label class="col-sm-3 text-right" > Localização </label>
                             <input class="col-sm-9 form-control" name="localizacao" />
                         </div>
 

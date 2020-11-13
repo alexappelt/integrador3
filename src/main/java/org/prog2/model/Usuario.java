@@ -6,7 +6,6 @@ public class Usuario{
     String senha;
     String perfil;
 
-
     public String getLogin() {
         return login;
     }
@@ -30,13 +29,4 @@ public class Usuario{
     public void setPerfil(String perfil) {
         this.perfil = perfil;
     }
-
-
-
-
-
-
-
-
-
 }

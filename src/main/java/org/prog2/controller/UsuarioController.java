@@ -1,6 +1,5 @@
 package org.prog2.controller;
 
-import org.prog2.model.Filial;
 import org.prog2.model.Usuario;
 import org.prog2.service.UsuarioService;
 
@@ -20,11 +19,7 @@ public class UsuarioController extends HttpServlet {
         view.forward(req, resp);
     }
 
-
-
-
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
 
         Usuario objUsuario = new Usuario();
 
@@ -32,13 +27,8 @@ public class UsuarioController extends HttpServlet {
         objUsuario.setSenha(req.getParameter("senha"));
         objUsuario.setPerfil(req.getParameter("perfil"));
 
-
-
         usuarioService.inserirUsuario(objUsuario);
 
         resp.sendRedirect("/listarusuario");
-
-
     }
-
 }

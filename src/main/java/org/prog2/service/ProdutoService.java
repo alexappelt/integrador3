@@ -8,13 +8,6 @@ public class ProdutoService {
     public void inserirProduto(Produto objProduto){
 
         ProdutoDao produtoDao = new ProdutoDao();
-
         produtoDao.inserirProduto(objProduto);
-
-
-
-
     }
-
-
 }

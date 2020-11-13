@@ -29,7 +29,6 @@ public class ProdutoController extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         Produto objProduto = new Produto();
-
         ProdutoDao objprod = new ProdutoDao();
 
         objProduto.setCodigo(Long.toString(objprod.getQntdProduto()));
@@ -46,17 +45,9 @@ public class ProdutoController extends HttpServlet {
             cozinha = "Sim";
         }
 
-
         objProduto.setCozinha(cozinha);
-
-
-
         produtoService.inserirProduto(objProduto);
 
-
-
-
         resp.sendRedirect("/listarprodutos");
-
     }
 }

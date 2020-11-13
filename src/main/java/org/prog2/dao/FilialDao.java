@@ -4,14 +4,10 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import org.prog2.model.Filial;
 
-
 public class FilialDao {
 
-
     public void inserirFilial(Filial objFilial){
-
         getCollection().insertOne(objFilial);
-
     }
 
     public FindIterable<Filial> getFilial(){
@@ -19,9 +15,6 @@ public class FilialDao {
     }
 
     private MongoCollection<Filial> getCollection(){
-        return config.DatabaseConnector.getDatabase().getCollection("filial", Filial.class);
+        return org.prog2.config.DatabaseConnector.getDatabase().getCollection("filial", Filial.class);
     }
-
-
-
 }

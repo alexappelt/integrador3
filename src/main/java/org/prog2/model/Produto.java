@@ -2,8 +2,6 @@ package org.prog2.model;
 
 public class Produto{
 
-
-
     private String codigo;
     private String descricao;
     private String valor;
@@ -59,5 +57,4 @@ public class Produto{
     public void setQntdestoque(String qntdestoque) {
         this.qntdestoque = qntdestoque;
     }
-
 }

@@ -6,15 +6,12 @@ import org.prog2.model.Produto;
 
 public class ProdutoDao {
 
-
     public void inserirProduto(Produto objProduto){
-
     getCollection().insertOne(objProduto);
-
     }
 
     public FindIterable<Produto> getProduto(){
-       return  getCollection().find();
+        return  getCollection().find();
     }
 
     public long getQntdProduto(){
@@ -22,7 +19,6 @@ public class ProdutoDao {
     }
 
     private MongoCollection<Produto> getCollection(){
-        return config.DatabaseConnector.getDatabase().getCollection("produto", Produto.class);
+        return org.prog2.config.DatabaseConnector.getDatabase().getCollection("produto", Produto.class);
     }
-
 }
