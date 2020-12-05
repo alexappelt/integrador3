@@ -1,0 +1,144 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Trabalho Final disciplina Prog 2</display-name>
+
+
+
+  <servlet>
+    <servlet-name>ProdutoController</servlet-name>
+    <servlet-class>org.prog2.controller.ProdutoController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListaProdutoController</servlet-name>
+    <servlet-class>org.prog2.controller.ListaProdutoController</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>InicioController</servlet-name>
+    <servlet-class>org.prog2.controller.InicioController</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>FilialController</servlet-name>
+    <servlet-class>org.prog2.controller.FilialController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListarFilialController</servlet-name>
+    <servlet-class>org.prog2.controller.ListarFilialController</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>UsuarioController</servlet-name>
+    <servlet-class>org.prog2.controller.UsuarioController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListarUsuarioController</servlet-name>
+    <servlet-class>org.prog2.controller.ListarUsuarioController</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>CardapioController</servlet-name>
+    <servlet-class>org.prog2.controller.CardapioController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListarCardapioController</servlet-name>
+    <servlet-class>org.prog2.controller.ListarCardapioController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ComandaController</servlet-name>
+    <servlet-class>org.prog2.controller.ComandaController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CozinhaController</servlet-name>
+    <servlet-class>org.prog2.controller.CozinhaController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ControleStatusController</servlet-name>
+    <servlet-class>org.prog2.controller.ControleStatusController</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>ControleStatusController</servlet-name>
+    <url-pattern>/controlastatus</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CozinhaController</servlet-name>
+    <url-pattern>/cozinha</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ComandaController</servlet-name>
+    <url-pattern>/comanda</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ListarCardapioController</servlet-name>
+    <url-pattern>/listarcardapio</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CardapioController</servlet-name>
+    <url-pattern>/cardapio</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ListarUsuarioController</servlet-name>
+    <url-pattern>/listarusuario</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>UsuarioController</servlet-name>
+    <url-pattern>/usuario</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ListarFilialController</servlet-name>
+    <url-pattern>/listarfilial</url-pattern>
+
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>FilialController</servlet-name>
+    <url-pattern>/filial</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet-mapping>
+    <servlet-name>InicioController</servlet-name>
+    <url-pattern>/inicio</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ProdutoController</servlet-name>
+    <url-pattern>/produto</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ListaProdutoController</servlet-name>
+    <url-pattern>/listarprodutos</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+</web-app>
